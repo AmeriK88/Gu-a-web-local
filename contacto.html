@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio web dirigido al turismo, senderismo y la escalada en la isla de Lanzarote">
+  <meta name="keywords" content="lanzarote, senderismo, escalada, rutas">
+  <meta name="author" content="J.F.G.C.">
+  <link rel="shortcut icon" type="image/png" href="imagenes/favicon.ico">
+  <link rel="stylesheet" href="css/styles.css">       
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="prefetch" href="app.js" />
+  <link rel="preload" href="css/styles.css" as="style" />
+  <title>Lanzaway</title>
+</head>
+<body>    
+  <!-- nav-bar menu --> 
+    <nav class="navbar">
+      <div class="logo">
+        <a href="home.html"><h4><strong>Lanzaway</strong></h4></a>
+      </div>
+        <ul class="nav-links">
+          <li>
+            <a href="home.html">Inicio</a>
+          </li>
+          <li>
+            <a href="contacto.html">Contacto</a>
+          </li>
+          <li>
+            <a href="quehacer.html">Descubre</a>
+          </li>
+          <li>
+            <a href="rutas.html">Rutas</a>
+          </li>
+            <li>
+              <a href="videos.html">Videos</a>
+          </li>
+        </ul>
+        <!-- hamburguesa menu -->
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+     </nav>
+     <!-- pagina contacto -->
+      <main>
+        <h1 class="main-contact-text-wrapper">Contacto</h1>
+        <div class="envoltorio">
+          <div class="contact-section">  
+            <form action="https://formsubmit.co/YOUR_EMAIL.com" method="POST">
+                <input type="text" class="contact-form-text" placeholder="Nombre" name="name" required><br></br>
+                <input type="text" class="contact-form-text" placeholder="Teléfono" name="telephone" required><br></br>
+                <input type="email" class="contact-form-text" placeholder="Email" name="email" required><br></br>
+                <textarea rows="5" name="message" cols="30" placeholder="Mensaje" id="coments" required>
+                </textarea><br></br>
+                <input type="submit" class="contact-form-btn" name="submit" value="Enviar"><br></br>
+                <input type="hidden" name="_next" value="http://YOUR_DOMAIN/contacto.html">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+          </div>
+        </div>
+      </main>
+      <footer class="footer" id="footer">                                
+        <img id="lanzaway" class="sombreado" src="imagenes/footer.jpg" height="80px" width="auto"> 
+        <span id="Copy"><p>Copyright rights reserved.</p></span>    
+        <span id="foot-email">E-mail: lanzaltura17@gmail.com</span>
+      </footer> 
+  <script src="app.js"></script>
+</body>
+</html>
