@@ -24,5 +24,6 @@ Lanzarote, una isla que encarna la esencia misma de la aventura y la exploració
 
 - **Autor:** José Félix Gordo.
 
-Tengo una versión actualizada de este proyecto accesible en este enlace [Entrar en Lanzaway]([URL_del_enlace](https://lanzaway.com/))
+Tengo una versión actualizada de este proyecto accesible en este [enlace](https://lanzaway.com/).
+
 
